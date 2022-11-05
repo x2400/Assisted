@@ -110,4 +110,4 @@ if (content === "redeem") { // Command they use to whitelist
 }
 })
 console.log("ready!")
-client.login("MTAzNzYwNTk1NjA0NzA5NzkwNw.GukPnO.wio66x78eMehmn3uMlCKQ5ELL2MqlhewuOCwic")
+client.login("MTAzNzYwNTk1NjA0NzA5NzkwNw.GmgMqK.Wiwh_VD-qVvltKCqH6z0-bTjUk5Y9fhfKtJMM4")
