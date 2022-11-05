@@ -1,5 +1,5 @@
 s = _G.Key or ""
-if game:HttpGet("https://WEBSITENAME.heroku.com/bot.js?key="..s) == "Whitelisted!" then
+if game:HttpGet("https://x2400.heroku.com/bot.js?key="..s) == "Whitelisted!" then
 print("Whitelisted")
 elseif game:HttpGet("https://x2400.heroku.com/bot.js?key="..s) == "Not Whitelisted"
 game.Players.LocalPlayer:Kick("Not Whitelisted")
