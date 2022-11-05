@@ -4,6 +4,7 @@ const db = require("quick.db")
 const axios = require('axios');
 const Express = require("express");
 const App = Express();
+const token = "MTAzODIzNDY1MDIyMjUzMDYzMA.GCgBOP.utvoONQevuq0-N5lTSTTk_uI9tR6Frx9bHDZvs";
 // ----- Data Base ----- \\
 const DataBase = {
     Shoppy_AuthorizationID: "sE2gUPhk7hEvjxbVVAqem2fvIsvePH3NT0ETrpVRJMsfPf1O4j", // This is the ID used to connect to your shoppy to get Data, Change this to yours.
@@ -110,4 +111,4 @@ if (content === "redeem") { // Command they use to whitelist
 }
 })
 console.log("ready!")
-client.login("MTAzODIzNDY1MDIyMjUzMDYzMA.G1E7df.B08gXTLZPQI3NZZnF3v1qjc_2HigXAgS6kTxbI")
+client.login(token)
